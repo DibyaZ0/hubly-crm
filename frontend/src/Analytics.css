@@ -1,0 +1,65 @@
+.analytics-container{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.analytics-container h1,
+.analytics-container h2,
+.analytics-container h3,
+.analytics-container h4,
+.analytics-container h5,
+.analytics-container h6 {
+  font-family: revert;
+  font-size: revert;
+  font-weight: bold;
+}
+
+.analytics-container {
+    padding: 20px;
+    margin-left: 120px; 
+    font-family: Arial, sans-serif;
+  }
+  
+  .analytics-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .missed-chats, .average-reply, .resolved-tickets, .total-chats {
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .reply-info, .ticket-info, .chat-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .reply-info p, .ticket-info p, .chat-info p {
+    max-width: 70%;
+  }
+  
+  .time, .total-number {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+  }
+  
